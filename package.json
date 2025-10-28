@@ -1,0 +1,30 @@
+{
+  "name": "coherrest",
+  "version": "1.0.1",
+  "description": "A CLI tool for enriching OpenAPI specifications with syntactic and semantic metadata (RBAC, validation, and PII detection).",
+  "main": "CoherRest.js",
+  "bin": {
+    "coherrest": "CoherRest.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-abdelilah/CoherREST.git"
+  },
+  "keywords": [],
+  "author": "Abdelilah Ettarch",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/e-abdelilah/CoherREST/issues"
+  },
+  "homepage": "https://github.com/e-abdelilah/CoherREST#readme",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^12.1.0",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^2.7.0",
+    "readline-sync": "^1.4.10"
+  }
+}
